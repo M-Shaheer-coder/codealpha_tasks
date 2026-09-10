@@ -31,21 +31,12 @@ answers = [
     "Programming is the process of writing computer programs.",
     "Computer Science is the study of computers and algorithms."
 ]
-
-# ---------------------- PREPROCESS FUNCTION ----------------------
-
 stop_words = set(stopwords.words('english'))
-
 def preprocess(text):
-
     text = text.lower()
-
     words = word_tokenize(text)
-
     cleaned = []
-
     for word in words:
-
         if word not in string.punctuation:
 
             if word not in stop_words:
@@ -53,9 +44,6 @@ def preprocess(text):
                 cleaned.append(word)
 
     return " ".join(cleaned)
-
-# ---------------------- CHATBOT FUNCTION ----------------------
-
 def chatbot():
 
     user_question = question_box.get()
