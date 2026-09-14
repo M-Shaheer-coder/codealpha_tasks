@@ -1,6 +1,6 @@
 from tkinter import *
 from tkinter import messagebox
-import nltk
+import nltk 
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 import string
