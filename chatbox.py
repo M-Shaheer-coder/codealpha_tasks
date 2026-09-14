@@ -15,7 +15,7 @@ questions = [
     "Who developed Python?",
     "What is Machine Learning?",
     "What is NLP?",
-    "What is ChatGPT?",
+    "What is ChatGPT?",     
     "What is Programming?",
     "What is Computer Science?"
 ]
