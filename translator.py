@@ -13,7 +13,7 @@ def translate_text():
     source = source_lang.get()
     target = target_lang.get()         
 
-    # Language codes
+    # Language codes                                        
     languages = {
         "English": "en",
         "Urdu": "ur",
