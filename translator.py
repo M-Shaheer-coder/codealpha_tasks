@@ -11,7 +11,7 @@ def translate_text():
         return
 
     source = source_lang.get()
-    target = target_lang.get()
+    target = target_lang.get()         
 
     # Language codes
     languages = {
